@@ -1,4 +1,9 @@
-# raised to the power
-# ask the user to input two numbers 
+# ask the user to input two numbers
+print("please enter two numbers")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
 # proceed with the operation of raised
-# print the results
+raised = num1 ** num2
+print("the result of the two numbers is" , raised) # print the results
+
